@@ -1,0 +1,22 @@
+1. Fastq file QC:
+(1) FastQC: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+(2) FastQ Screen: http://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
+(3) MultiQC: https://github.com/ewels/MultiQC , https://pypi.python.org/pypi/multiqc/
+
+2. Remove Duplicates based on FASTQ files
+(1) Clumpify in BBMap: https://www.biostars.org/p/225338/ , https://sourceforge.net/projects/bbmap/
+
+3. Trim and Filter
+(1) Trimmomatic: http://www.usadellab.org/cms/?page=trimmomatic
+(2) cutadapt： https://pypi.python.org/pypi/cutadapt
+(3) Galore: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
+
+4. Reads mapping (Mappers or Aligners)
+(1) DNA: BWA-mem and BWA-aln: https://github.com/lh3/bwa
+(2) RNA: STAR or hisat2
+(3) GMAP-GSNAP: http://research-pub.gene.com/gmap/
+
+5. Mapped reads QC
+(1) SAMstat: https://sourceforge.net/projects/samstat/
+(2) qualimap: http://qualimap.bioinfo.cipf.es/
+(3) Picard: https://github.com/broadinstitute/picard
