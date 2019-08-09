@@ -20,3 +20,7 @@
 (1) SAMstat: https://sourceforge.net/projects/samstat/
 (2) qualimap: http://qualimap.bioinfo.cipf.es/
 (3) Picard: https://github.com/broadinstitute/picard
+
+6. Some fancy R packges
+(1) ggpubr: CNS plot additional with statistic test p value.
+(2) ggstatsplot: plot with p value
