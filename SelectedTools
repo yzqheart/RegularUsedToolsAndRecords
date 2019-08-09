@@ -8,13 +8,11 @@
 
 3. Trim and Filter
 (1) Trimmomatic: http://www.usadellab.org/cms/?page=trimmomatic
-(2) cutadapt： https://pypi.python.org/pypi/cutadapt
-(3) Galore: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
+(2) Trim Galore: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
 
 4. Reads mapping (Mappers or Aligners)
 (1) DNA: BWA-mem and BWA-aln: https://github.com/lh3/bwa
 (2) RNA: STAR or hisat2
-(3) GMAP-GSNAP: http://research-pub.gene.com/gmap/
 
 5. Mapped reads QC
 (1) SAMstat: https://sourceforge.net/projects/samstat/
