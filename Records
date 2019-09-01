@@ -13,3 +13,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/yzqheart/scHaplotyper.git
 git push -u origin master
 
+
+3. 在终端输入：cd /ho 按tab键时，显示错误：
+bash: cannot create temp file for here-document: No space left on device
+
+可能是由于/tmp下面某个文件太大，将其删除即可
