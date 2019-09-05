@@ -13,6 +13,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/yzqheart/scHaplotyper.git
 git push -u origin master
 
+github README.md 排版 https://blog.csdn.net/guodongxiaren/article/details/23690801
 
 3. 在终端输入：cd /ho 按tab键时，显示错误：
 bash: cannot create temp file for here-document: No space left on device
