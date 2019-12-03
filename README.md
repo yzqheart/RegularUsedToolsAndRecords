@@ -1,2 +1,2 @@
-This file contains some records.
+These files contain some records.
 
