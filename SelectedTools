@@ -23,3 +23,6 @@
 (1) ggpubr: CNS plot additional with statistic test p value.
 (2) ggstatsplot: plot with p value.
 (3) ggsci: color selection for journals.
+
+7. sam flag exploration
+(1) https://broadinstitute.github.io/picard/explain-flags.html
