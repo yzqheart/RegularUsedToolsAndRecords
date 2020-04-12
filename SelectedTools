@@ -26,3 +26,7 @@
 
 7. sam flag exploration
 (1) https://broadinstitute.github.io/picard/explain-flags.html
+
+8. count bam reads number
+samtools view -c SAMPLE.bam (total reads)
+samtools view -c -F 260 SAMPLE.bam (uniquely mapped reads)
