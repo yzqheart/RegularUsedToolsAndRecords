@@ -19,3 +19,9 @@ github README.md 排版 https://blog.csdn.net/guodongxiaren/article/details/2369
 bash: cannot create temp file for here-document: No space left on device
 
 可能是由于/tmp下面某个文件太大，将其删除即可
+
+4. centos批量修改文件名：
+find -name "*.txt" |for i in *;do mv  $i `echo $i |sed 's/\.txt//g'`;done
+
+5. 文件内容作为命令行输入：
+cat file1 | xargs -i mv {} test4
