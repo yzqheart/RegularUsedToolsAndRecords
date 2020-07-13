@@ -31,3 +31,6 @@
 8. count bam reads number
 samtools view -c SAMPLE.bam (total reads)
 samtools view -c -F 260 SAMPLE.bam (uniquely mapped reads)
+
+9. UCSC one exon zoom in
+Ctrl+click
