@@ -25,3 +25,6 @@ find -name "*.txt" |for i in *;do mv  $i `echo $i |sed 's/\.txt//g'`;done
 
 5. 文件内容作为命令行输入：
 cat file1 | xargs -i mv {} test4
+
+6. 点图显示基因名称，防止重叠：
+ggrepel: https://www.jianshu.com/p/84e7e0e029cd
