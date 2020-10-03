@@ -28,3 +28,9 @@ cat file1 | xargs -i mv {} test4
 
 6. 点图显示基因名称，防止重叠：
 ggrepel: https://www.jianshu.com/p/84e7e0e029cd
+
+7. hdf5r install
+#echo "dyn.load('/usr/local/hdf5/lib/libhdf5_hl.so.100')" >> ~/.Rprofile
+dyn.load("/usr/local/hdf5/lib/libhdf5_hl.so.100")
+install.packages("hdf5r", configure.args="-with-hdf5=/usr/local/hdf5/bin/h5cc")
+
