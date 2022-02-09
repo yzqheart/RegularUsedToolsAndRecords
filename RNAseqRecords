@@ -1,4 +1,4 @@
-1. get gene list of GO or pathway term
+1. get gene list of GO or pathway term:
 org.Hs.eg.db (human) and org.Mm.eg.db (mouse). With as.list(org.Hs.egPATH2EG) you will get a list of all pathways (itmes names are KEGG pathway IDs and each item is a vector of NCBI gene IDs that are assigned to the respective pathway). You can save this as a text file in the format you want, e.g. with
 library(org.Hs.eg.db)
 mapped <- mappedkeys(org.Hs.egPATH2EG)
