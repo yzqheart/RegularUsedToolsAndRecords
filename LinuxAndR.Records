@@ -34,3 +34,5 @@ ggrepel: https://www.jianshu.com/p/84e7e0e029cd
 dyn.load("/usr/local/hdf5/lib/libhdf5_hl.so.100")
 install.packages("hdf5r", configure.args="-with-hdf5=/usr/local/hdf5/bin/h5cc")
 
+8.无意间删除了 libc.so解决办法
+https://stackoverflow.com/questions/12249547/how-to-recover-after-deleting-the-symbolic-link-libc-so-6
